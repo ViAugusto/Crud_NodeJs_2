@@ -16,7 +16,7 @@ Toda função(function) necessita de uma requisição(req) e de uma resposta(res
 
 Layouts é onde deixa o layout principal, é bom para economizar linha de códigos e deixar o conteúdo estático, como header e footer.
 
-Na rota get, depois de colocar o endereço, há a possibilidade de requerer um parâmetro id, para fazer isso é necessário por " :id ", fazendo exigir um id para poder funcionar. Para deixar o id opcional, basta fazer " :id? ".
+Na rota get, depois de colocar o endereço, há a possibilidade de requerer um parâmetro id, para fazer isso é necessário por " :id= ", fazendo exigir um id para poder funcionar. Para deixar o id opcional, basta fazer " :id=? ".
 
 Para passar os dados, como o id, é possível fazer no render a seguinte função:
 {id: req.params.id}, assim, fazendo a requisição no back-end, é possível exibir no front-end colocando em uma das telas da seguinte maneira: {{id}}.
